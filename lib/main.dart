@@ -1,4 +1,3 @@
-import 'package:busara/common/styles.dart';
 import 'package:busara/ui/main_page.dart';
 import 'package:flutter/material.dart';
 
