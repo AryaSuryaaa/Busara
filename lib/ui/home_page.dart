@@ -169,6 +169,64 @@ class HomePage extends StatelessWidget {
                                 },
                               ),
                             ),
+                            Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text(
+                                    "Tari",
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16
+                                    ),
+                                  ),
+                                  TextButton(
+                                      onPressed: null,
+                                      child: Text("Lihat Semua")
+                                  )
+                                ],
+                              ),
+                            ),
+                            Container(
+                              height: 190,
+                              child: ListView.builder(
+                                scrollDirection: Axis.horizontal,
+                                itemCount: provinces.provinces.length,
+                                itemBuilder: (context, index) {
+                                  EdgeInsetsGeometry margin = EdgeInsets.only(left: 0);
+                                  if (index == 0) {
+                                    // Margin for the first item
+                                    margin = EdgeInsets.only(left: 16,bottom: 10);
+                                  } else if (index == provinces.provinces.length - 1) {
+                                    // Margin for the last item
+                                    margin = EdgeInsets.only(left: 8, right:16, bottom: 10);
+                                  } else {
+                                    margin = EdgeInsets.only(left: 8, bottom: 10);
+                                  }
+                                  final traditionalHouses = provinces.provinces[index].culturalHeritage.traditionalDances;
+                                  return Row(
+                                    children: traditionalHouses.map((house) {
+                                      return Container(
+                                        margin: margin,
+                                        child: InkWell(
+                                          onTap: () {
+                                            // Navigator.push(context, MaterialPageRoute(builder: (context) {
+                                            //   // return DetailScreen(list: list);
+                                            // }));
+                                          },
+                                          child: BudayaCard(
+                                            title: house.title,
+                                            subTitle: house.subText,
+                                            imagePath: house.image,
+                                          ),
+                                        ),
+                                      );
+                                    }).toList(),
+                                  );
+                                },
+                              ),
+                            ),
                           ],
                         ),
                       ),
