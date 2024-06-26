@@ -21,7 +21,11 @@ class HomePage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Image.asset('images/banner.png'),
+            Image.asset(
+              'images/banner.png',
+              width: MediaQuery.of(context).size.width,
+              fit: BoxFit.cover,
+            ),
             FutureBuilder<String>(
               future: DefaultAssetBundle.of(context).loadString('assets/provinces.json'),
               builder: (context, snapshot) {
@@ -225,6 +229,35 @@ class HomePage extends StatelessWidget {
                                     }).toList(),
                                   );
                                 },
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text(
+                                    "Artikel",
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16
+                                    ),
+                                  ),
+                                  TextButton(
+                                      onPressed: null,
+                                      child: Text("Lihat Semua")
+                                  )
+                                ],
+                              ),
+                            ),
+                            Container(
+                              alignment: Alignment.center,
+                              child: Text(
+                                "coming soon",
+                                style: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 14
+                                ),
                               ),
                             ),
                           ],
