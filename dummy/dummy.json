@@ -1,0 +1,234 @@
+{
+  "provinces": [
+    {
+      "province_name": "Sumatera Utara",
+      "cultural_heritage": {
+        "traditional_foods": [
+          {
+            "image": "url_to_image_rendang",
+            "title": "Rendang",
+            "sub_text": "Makanan khas Sumatera Utara",
+            "updated_date": "2024-06-26",
+            "province": "Sumatera Utara",
+            "details": {
+              "banner_image": "url_to_banner_image_rendang",
+              "title": "Rendang",
+              "sub_title": "Makanan pedas dan lezat",
+              "description": "Rendang adalah hidangan daging yang dimasak dengan santan dan rempah-rempah.",
+              "video_link": "url_to_video_rendang",
+              "images": [
+                "url_to_image1_rendang",
+                "url_to_image2_rendang",
+                "url_to_image3_rendang",
+                "url_to_image4_rendang"
+              ]
+            }
+          }
+        ],
+        "traditional_houses": [
+          {
+            "image": "url_to_image_rumah_batak",
+            "title": "Rumah Batak",
+            "sub_text": "Rumah adat Sumatera Utara",
+            "updated_date": "2024-06-26",
+            "province": "Sumatera Utara",
+            "details": {
+              "banner_image": "url_to_banner_image_rumah_batak",
+              "title": "Rumah Batak",
+              "sub_title": "Arsitektur tradisional yang unik",
+              "description": "Rumah Batak memiliki desain yang khas dengan atap melengkung yang menyerupai tanduk kerbau.",
+              "video_link": "url_to_video_rumah_batak",
+              "images": [
+                "url_to_image1_rumah_batak",
+                "url_to_image2_rumah_batak",
+                "url_to_image3_rumah_batak",
+                "url_to_image4_rumah_batak"
+              ]
+            }
+          }
+        ],
+        "traditional_dances": [
+          {
+            "image": "url_to_image_tari_tortor",
+            "title": "Tari Tortor",
+            "sub_text": "Tarian adat Sumatera Utara",
+            "updated_date": "2024-06-26",
+            "province": "Sumatera Utara",
+            "details": {
+              "banner_image": "url_to_banner_image_tari_tortor",
+              "title": "Tari Tortor",
+              "sub_title": "Tarian sakral dan penuh makna",
+              "description": "Tari Tortor adalah tarian tradisional yang biasanya dipertunjukkan dalam upacara adat Batak.",
+              "video_link": "url_to_video_tari_tortor",
+              "images": [
+                "url_to_image1_tari_tortor",
+                "url_to_image2_tari_tortor",
+                "url_to_image3_tari_tortor",
+                "url_to_image4_tari_tortor"
+              ]
+            }
+          }
+        ],
+        "traditional_weapons": [
+          {
+            "image": "url_to_image_pedang",
+            "title": "Pedang",
+            "sub_text": "Senjata tradisional Sumatera Utara",
+            "updated_date": "2024-06-26",
+            "province": "Sumatera Utara",
+            "details": {
+              "banner_image": "url_to_banner_image_pedang",
+              "title": "Pedang",
+              "sub_title": "Simbol kekuatan dan keberanian",
+              "description": "Pedang adalah senjata tradisional yang digunakan dalam berbagai upacara adat dan simbol keberanian.",
+              "video_link": "url_to_video_pedang",
+              "images": [
+                "url_to_image1_pedang",
+                "url_to_image2_pedang",
+                "url_to_image3_pedang",
+                "url_to_image4_pedang"
+              ]
+            }
+          }
+        ],
+        "traditions": [
+          {
+            "image": "url_to_image_upacara",
+            "title": "Upacara Adat",
+            "sub_text": "Upacara adat Sumatera Utara",
+            "updated_date": "2024-06-26",
+            "province": "Sumatera Utara",
+            "details": {
+              "banner_image": "url_to_banner_image_upacara",
+              "title": "Upacara Adat",
+              "sub_title": "Simbol kebersamaan dan kepercayaan",
+              "description": "Upacara adat di Sumatera Utara adalah simbol kebersamaan dan kepercayaan masyarakat setempat.",
+              "video_link": "url_to_video_upacara",
+              "images": [
+                "url_to_image1_upacara",
+                "url_to_image2_upacara",
+                "url_to_image3_upacara",
+                "url_to_image4_upacara"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "province_name": "Bali",
+      "cultural_heritage": {
+        "traditional_foods": [
+          {
+            "image": "url_to_image_babi_guling",
+            "title": "Babi Guling",
+            "sub_text": "Makanan khas Bali",
+            "updated_date": "2024-06-26",
+            "province": "Bali",
+            "details": {
+              "banner_image": "url_to_banner_image_babi_guling",
+              "title": "Babi Guling",
+              "sub_title": "Hidangan dengan cita rasa khas",
+              "description": "Babi Guling adalah hidangan tradisional Bali yang terkenal dengan cita rasa bumbunya yang khas.",
+              "video_link": "url_to_video_babi_guling",
+              "images": [
+                "url_to_image1_babi_guling",
+                "url_to_image2_babi_guling",
+                "url_to_image3_babi_guling",
+                "url_to_image4_babi_guling"
+              ]
+            }
+          }
+        ],
+        "traditional_houses": [
+          {
+            "image": "url_to_image_rumah_bali",
+            "title": "Rumah Adat Bali",
+            "sub_text": "Rumah adat khas Bali",
+            "updated_date": "2024-06-26",
+            "province": "Bali",
+            "details": {
+              "banner_image": "url_to_banner_image_rumah_bali",
+              "title": "Rumah Adat Bali",
+              "sub_title": "Desain yang unik dan artistik",
+              "description": "Rumah adat Bali memiliki desain yang unik dan penuh dengan seni serta makna filosofis.",
+              "video_link": "url_to_video_rumah_bali",
+              "images": [
+                "url_to_image1_rumah_bali",
+                "url_to_image2_rumah_bali",
+                "url_to_image3_rumah_bali",
+                "url_to_image4_rumah_bali"
+              ]
+            }
+          }
+        ],
+        "traditional_dances": [
+          {
+            "image": "url_to_image_tari_kecak",
+            "title": "Tari Kecak",
+            "sub_text": "Tarian adat dari Bali",
+            "updated_date": "2024-06-26",
+            "province": "Bali",
+            "details": {
+              "banner_image": "url_to_banner_image_tari_kecak",
+              "title": "Tari Kecak",
+              "sub_title": "Tarian yang memukau",
+              "description": "Tari Kecak adalah tarian khas Bali yang menggambarkan cerita Ramayana dan dilakukan oleh banyak penari pria.",
+              "video_link": "url_to_video_tari_kecak",
+              "images": [
+                "url_to_image1_tari_kecak",
+                "url_to_image2_tari_kecak",
+                "url_to_image3_tari_kecak",
+                "url_to_image4_tari_kecak"
+              ]
+            }
+          }
+        ],
+        "traditional_weapons": [
+          {
+            "image": "url_to_image_keris",
+            "title": "Keris",
+            "sub_text": "Senjata tradisional Bali",
+            "updated_date": "2024-06-26",
+            "province": "Bali",
+            "details": {
+              "banner_image": "url_to_banner_image_keris",
+              "title": "Keris",
+              "sub_title": "Simbol kekuatan dan spiritualitas",
+              "description": "Keris adalah senjata tradisional Bali yang memiliki makna spiritual dan digunakan dalam berbagai upacara adat.",
+              "video_link": "url_to_video_keris",
+              "images": [
+                "url_to_image1_keris",
+                "url_to_image2_keris",
+                "url_to_image3_keris",
+                "url_to_image4_keris"
+              ]
+            }
+          }
+        ],
+        "traditions": [
+          {
+            "image": "url_to_image_ngaben",
+            "title": "Ngaben",
+            "sub_text": "Upacara kremasi adat Bali",
+            "updated_date": "2024-06-26",
+            "province": "Bali",
+            "details": {
+              "banner_image": "url_to_banner_image_ngaben",
+              "title": "Ngaben",
+              "sub_title": "Simbol perpisahan dan penghormatan",
+              "description": "Ngaben adalah upacara kremasi adat Bali yang melambangkan penghormatan terakhir kepada leluhur.",
+              "video_link": "url_to_video_ngaben",
+              "images": [
+                "url_to_image1_ngaben",
+                "url_to_image2_ngaben",
+                "url_to_image3_ngaben",
+                "url_to_image4_ngaben"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
