@@ -38,12 +38,12 @@
               "title": "Rumah Batak",
               "sub_title": "Arsitektur tradisional yang unik",
               "description": "Rumah Batak memiliki desain yang khas dengan atap melengkung yang menyerupai tanduk kerbau.",
-              "video_link": "url_to_video_rumah_batak",
+              "video_link": "",
               "images": [
-                "url_to_image1_rumah_batak",
-                "url_to_image2_rumah_batak",
-                "url_to_image3_rumah_batak",
-                "url_to_image4_rumah_batak"
+                "images/sumuthomepic.jpg",
+                "images/sumuthomepic.jpg",
+                "images/sumuthomepic.jpg",
+                "images/sumuthomepic.jpg"
               ]
             }
           }
@@ -60,12 +60,12 @@
               "title": "Tari Tortor",
               "sub_title": "Tarian sakral dan penuh makna",
               "description": "Tari tor-tor berasal dari Sumatera Utara. Tari tradisional ini semula dikaitkan dengan ritual dan roh, sehingga dipentaskan ketika ada anggota keluarga yang meninggal. Kini, tari tor-tor menjadi tari tradisional yang kerap dipentaskan di beragam acara di Sumatera Utara.",
-              "video_link": "url_to_video_tari_tortor",
+              "video_link": "https://www.youtube.com/watch?v=TwMi6YFwZt8&pp=ygULdGFyaSB0b3J0b3I%3D",
               "images": [
-                "url_to_image1_tari_tortor",
-                "url_to_image2_tari_tortor",
-                "url_to_image3_tari_tortor",
-                "url_to_image4_tari_tortor"
+                "images/taritortor.jpg",
+                "images/taritortor.jpg",
+                "images/taritortor.jpg",
+                "images/taritortor.jpg"
               ]
             }
           }
@@ -176,12 +176,12 @@
               "title": "Tari Kecak",
               "sub_title": "Tarian yang memukau",
               "description": "Tari kecak adalah tari tradisional yang semula merupakan bagian prosesi keagamaan Hindu di Bali. Salah satu penari akan menjadi media komunikasi dengan dewa dan pengusir roh jahat. Seiring waktu, tari kecak digabungkan dengan pertunjukan teater yang menggambarkan kisah Ramayana lewat gerak tari. Uniknya, tidak ada instrumen alat musik yang mengiringi tari ini, melainkan bunyi dari suara penarinya sendiri.",
-              "video_link": "url_to_video_tari_kecak",
+              "video_link": "https://www.youtube.com/watch?v=XCM54pKkQSE&pp=ygUKdGFyaSBrZWNhaw%3D%3D",
               "images": [
-                "url_to_image1_tari_kecak",
-                "url_to_image2_tari_kecak",
-                "url_to_image3_tari_kecak",
-                "url_to_image4_tari_kecak"
+                "images/tarikecak.jpeg",
+                "images/tarikecak.jpeg",
+                "images/tarikecak.jpeg",
+                "images/tarikecak.jpeg"
               ]
             }
           }
@@ -270,12 +270,12 @@
               "title": "Rumah Batak",
               "sub_title": "Arsitektur tradisional yang unik",
               "description": "Rumah Batak memiliki desain yang khas dengan atap melengkung yang menyerupai tanduk kerbau.",
-              "video_link": "url_to_video_rumah_batak",
+              "video_link": "",
               "images": [
-                "url_to_image1_rumah_batak",
-                "url_to_image2_rumah_batak",
-                "url_to_image3_rumah_batak",
-                "url_to_image4_rumah_batak"
+                "images/sumuthomepic.jpg",
+                "images/sumuthomepic.jpg",
+                "images/sumuthomepic.jpg",
+                "images/sumuthomepic.jpg"
               ]
             }
           }
@@ -292,12 +292,12 @@
               "title": "Tari Tortor",
               "sub_title": "Tarian sakral dan penuh makna",
               "description": "Tari tor-tor berasal dari Sumatera Utara. Tari tradisional ini semula dikaitkan dengan ritual dan roh, sehingga dipentaskan ketika ada anggota keluarga yang meninggal. Kini, tari tor-tor menjadi tari tradisional yang kerap dipentaskan di beragam acara di Sumatera Utara.",
-              "video_link": "url_to_video_tari_tortor",
+              "video_link": "https://www.youtube.com/watch?v=TwMi6YFwZt8&pp=ygULdGFyaSB0b3J0b3I%3D",
               "images": [
-                "url_to_image1_tari_tortor",
-                "url_to_image2_tari_tortor",
-                "url_to_image3_tari_tortor",
-                "url_to_image4_tari_tortor"
+                "images/taritortor.jpg",
+                "images/taritortor.jpg",
+                "images/taritortor.jpg",
+                "images/taritortor.jpg"
               ]
             }
           }
@@ -408,12 +408,12 @@
               "title": "Tari Kecak",
               "sub_title": "Tarian yang memukau",
               "description": "Tari kecak adalah tari tradisional yang semula merupakan bagian prosesi keagamaan Hindu di Bali. Salah satu penari akan menjadi media komunikasi dengan dewa dan pengusir roh jahat. Seiring waktu, tari kecak digabungkan dengan pertunjukan teater yang menggambarkan kisah Ramayana lewat gerak tari. Uniknya, tidak ada instrumen alat musik yang mengiringi tari ini, melainkan bunyi dari suara penarinya sendiri.",
-              "video_link": "url_to_video_tari_kecak",
+              "video_link": "https://www.youtube.com/watch?v=XCM54pKkQSE&pp=ygUKdGFyaSBrZWNhaw%3D%3D",
               "images": [
-                "url_to_image1_tari_kecak",
-                "url_to_image2_tari_kecak",
-                "url_to_image3_tari_kecak",
-                "url_to_image4_tari_kecak"
+                "images/tarikecak.jpeg",
+                "images/tarikecak.jpeg",
+                "images/tarikecak.jpeg",
+                "images/tarikecak.jpeg"
               ]
             }
           }
@@ -502,12 +502,12 @@
               "title": "Rumah Batak",
               "sub_title": "Arsitektur tradisional yang unik",
               "description": "Rumah Batak memiliki desain yang khas dengan atap melengkung yang menyerupai tanduk kerbau.",
-              "video_link": "url_to_video_rumah_batak",
+              "video_link": "",
               "images": [
-                "url_to_image1_rumah_batak",
-                "url_to_image2_rumah_batak",
-                "url_to_image3_rumah_batak",
-                "url_to_image4_rumah_batak"
+                "images/sumuthomepic.jpg",
+                "images/sumuthomepic.jpg",
+                "images/sumuthomepic.jpg",
+                "images/sumuthomepic.jpg"
               ]
             }
           }
@@ -524,12 +524,12 @@
               "title": "Tari Tortor",
               "sub_title": "Tarian sakral dan penuh makna",
               "description": "Tari tor-tor berasal dari Sumatera Utara. Tari tradisional ini semula dikaitkan dengan ritual dan roh, sehingga dipentaskan ketika ada anggota keluarga yang meninggal. Kini, tari tor-tor menjadi tari tradisional yang kerap dipentaskan di beragam acara di Sumatera Utara.",
-              "video_link": "url_to_video_tari_tortor",
+              "video_link": "https://www.youtube.com/watch?v=TwMi6YFwZt8&pp=ygULdGFyaSB0b3J0b3I%3D",
               "images": [
-                "url_to_image1_tari_tortor",
-                "url_to_image2_tari_tortor",
-                "url_to_image3_tari_tortor",
-                "url_to_image4_tari_tortor"
+                "images/taritortor.jpg",
+                "images/taritortor.jpg",
+                "images/taritortor.jpg",
+                "images/taritortor.jpg"
               ]
             }
           }
@@ -640,12 +640,12 @@
               "title": "Tari Kecak",
               "sub_title": "Tarian yang memukau",
               "description": "Tari kecak adalah tari tradisional yang semula merupakan bagian prosesi keagamaan Hindu di Bali. Salah satu penari akan menjadi media komunikasi dengan dewa dan pengusir roh jahat. Seiring waktu, tari kecak digabungkan dengan pertunjukan teater yang menggambarkan kisah Ramayana lewat gerak tari. Uniknya, tidak ada instrumen alat musik yang mengiringi tari ini, melainkan bunyi dari suara penarinya sendiri.",
-              "video_link": "url_to_video_tari_kecak",
+              "video_link": "https://www.youtube.com/watch?v=XCM54pKkQSE&pp=ygUKdGFyaSBrZWNhaw%3D%3D",
               "images": [
-                "url_to_image1_tari_kecak",
-                "url_to_image2_tari_kecak",
-                "url_to_image3_tari_kecak",
-                "url_to_image4_tari_kecak"
+                "images/tarikecak.jpeg",
+                "images/tarikecak.jpeg",
+                "images/tarikecak.jpeg",
+                "images/tarikecak.jpeg"
               ]
             }
           }
@@ -734,12 +734,12 @@
               "title": "Rumah Batak",
               "sub_title": "Arsitektur tradisional yang unik",
               "description": "Rumah Batak memiliki desain yang khas dengan atap melengkung yang menyerupai tanduk kerbau.",
-              "video_link": "url_to_video_rumah_batak",
+              "video_link": "",
               "images": [
-                "url_to_image1_rumah_batak",
-                "url_to_image2_rumah_batak",
-                "url_to_image3_rumah_batak",
-                "url_to_image4_rumah_batak"
+                "images/sumuthomepic.jpg",
+                "images/sumuthomepic.jpg",
+                "images/sumuthomepic.jpg",
+                "images/sumuthomepic.jpg"
               ]
             }
           }
@@ -756,12 +756,12 @@
               "title": "Tari Tortor",
               "sub_title": "Tarian sakral dan penuh makna",
               "description": "Tari tor-tor berasal dari Sumatera Utara. Tari tradisional ini semula dikaitkan dengan ritual dan roh, sehingga dipentaskan ketika ada anggota keluarga yang meninggal. Kini, tari tor-tor menjadi tari tradisional yang kerap dipentaskan di beragam acara di Sumatera Utara.",
-              "video_link": "url_to_video_tari_tortor",
+              "video_link": "https://www.youtube.com/watch?v=TwMi6YFwZt8&pp=ygULdGFyaSB0b3J0b3I%3D",
               "images": [
-                "url_to_image1_tari_tortor",
-                "url_to_image2_tari_tortor",
-                "url_to_image3_tari_tortor",
-                "url_to_image4_tari_tortor"
+                "images/taritortor.jpg",
+                "images/taritortor.jpg",
+                "images/taritortor.jpg",
+                "images/taritortor.jpg"
               ]
             }
           }
@@ -872,12 +872,12 @@
               "title": "Tari Kecak",
               "sub_title": "Tarian yang memukau",
               "description": "Tari kecak adalah tari tradisional yang semula merupakan bagian prosesi keagamaan Hindu di Bali. Salah satu penari akan menjadi media komunikasi dengan dewa dan pengusir roh jahat. Seiring waktu, tari kecak digabungkan dengan pertunjukan teater yang menggambarkan kisah Ramayana lewat gerak tari. Uniknya, tidak ada instrumen alat musik yang mengiringi tari ini, melainkan bunyi dari suara penarinya sendiri.",
-              "video_link": "url_to_video_tari_kecak",
+              "video_link": "https://www.youtube.com/watch?v=XCM54pKkQSE&pp=ygUKdGFyaSBrZWNhaw%3D%3D",
               "images": [
-                "url_to_image1_tari_kecak",
-                "url_to_image2_tari_kecak",
-                "url_to_image3_tari_kecak",
-                "url_to_image4_tari_kecak"
+                "images/tarikecak.jpeg",
+                "images/tarikecak.jpeg",
+                "images/tarikecak.jpeg",
+                "images/tarikecak.jpeg"
               ]
             }
           }

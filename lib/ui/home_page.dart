@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:busara/model/Provinces.dart';
+import 'package:busara/ui/detail_page.dart';
 import 'package:busara/widget/budaya_card.dart';
 import 'package:busara/widget/platform_widget.dart';
 import 'package:busara/widget/province_card.dart';
@@ -215,9 +216,9 @@ class HomePage extends StatelessWidget {
                                         margin: margin,
                                         child: InkWell(
                                           onTap: () {
-                                            // Navigator.push(context, MaterialPageRoute(builder: (context) {
-                                            //   // return DetailScreen(list: list);
-                                            // }));
+                                            Navigator.push(context, MaterialPageRoute(builder: (context) {
+                                              return DetailPage(detail: house.details);
+                                            }));
                                           },
                                           child: BudayaCard(
                                             title: house.title,
