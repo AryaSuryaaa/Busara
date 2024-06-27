@@ -11,15 +11,15 @@ class DetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(builder: (BuildContext context, BoxConstraints constraints) {
+    return LayoutBuilder(
+        builder: (BuildContext context, BoxConstraints constraints) {
       // if(constraints.maxWidth > 800) {
       //   return Detail2(list: list);
       // } else {
-        return DetailMobile(detail: detail);
+      return DetailMobile(detail: detail);
       // }
     });
   }
-
 }
 
 class DetailMobile extends StatefulWidget {
@@ -50,10 +50,16 @@ class _DetailMobileState extends State<DetailMobile> {
               // ),
               child: Stack(children: [
                 ClipRRect(
-                    borderRadius: BorderRadius.vertical(bottom: Radius.circular(10.0)),
+                    borderRadius:
+                        BorderRadius.vertical(bottom: Radius.circular(10.0)),
                     child: Stack(
                       children: [
-                        Image.asset(widget.detail.images.first, fit: BoxFit.cover, height: 245, width: MediaQuery.of(context).size.width,),
+                        Image.asset(
+                          widget.detail.images.first,
+                          fit: BoxFit.cover,
+                          height: 245,
+                          width: MediaQuery.of(context).size.width,
+                        ),
                         Container(
                           height: 245,
                           decoration: BoxDecoration(
@@ -68,8 +74,7 @@ class _DetailMobileState extends State<DetailMobile> {
                           ),
                         )
                       ],
-                    )
-                ),
+                    )),
                 SafeArea(
                   child: Padding(
                     padding: const EdgeInsets.all(16.0),
@@ -82,9 +87,7 @@ class _DetailMobileState extends State<DetailMobile> {
                             CircleAvatar(
                               backgroundColor: Colors.white,
                               child: IconButton(
-                                icon: const Icon(
-                                    Icons.arrow_back
-                                ),
+                                icon: const Icon(Icons.arrow_back),
                                 onPressed: () {
                                   Navigator.pop(context);
                                 },
@@ -92,8 +95,7 @@ class _DetailMobileState extends State<DetailMobile> {
                             ),
                             const CircleAvatar(
                                 backgroundColor: Colors.white,
-                                child: FavoriteButton()
-                            )
+                                child: FavoriteButton())
                           ],
                         ),
                         SizedBox(height: 45),
@@ -102,33 +104,31 @@ class _DetailMobileState extends State<DetailMobile> {
                           style: TextStyle(
                               color: textTitleColor,
                               fontWeight: FontWeight.w400,
-                              fontSize: 28
-                          ),
-
+                              fontSize: 28),
                         ),
                         Text(
                           widget.detail.subTitle,
                           style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.w400,
-                              fontSize: 14
-                          ),
+                              fontSize: 14),
                         ),
-                        SizedBox(height: 4,),
+                        SizedBox(
+                          height: 4,
+                        ),
                         Container(
                           decoration: BoxDecoration(
                               color: bgCategoryField,
-                              borderRadius: BorderRadius.circular(10.0)
-                          ),
+                              borderRadius: BorderRadius.circular(10.0)),
                           child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 8.0, vertical: 4.0),
                             child: Text(
-                              "Sumatera",
+                              widget.detail.category,
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.w400,
-                                  fontSize: 14
-                              ),
+                                  fontSize: 14),
                             ),
                           ),
                         ),
@@ -138,7 +138,9 @@ class _DetailMobileState extends State<DetailMobile> {
                 ),
               ]),
             ),
-            SizedBox(height: 21,),
+            SizedBox(
+              height: 21,
+            ),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: Column(
@@ -147,44 +149,69 @@ class _DetailMobileState extends State<DetailMobile> {
                 children: [
                   Text(
                     "Deskripsi",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold
-                    ),
+                    style: TextStyle(fontWeight: FontWeight.bold),
                   ),
-                  SizedBox(height: 4,),
+                  SizedBox(
+                    height: 4,
+                  ),
                   Text(widget.detail.description),
-                  SizedBox(height: 14,),
-                  Text(
-                    "Video",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold
+                  Visibility(
+                    visible: widget.detail.videoLink.isNotEmpty,
+                    child: SizedBox(
+                      height: 14,
                     ),
                   ),
-                  SizedBox(height: 4,),
-                  YoutubePlayerWidget(videoUrl: widget.detail.videoLink),
-                  Link(
-                    target: LinkTarget.blank,
-                      uri: Uri.parse('https://www.youtube.com/results?search_query='+widget.detail.title),
-                      builder: (context, followLink) => Column(
-                        crossAxisAlignment: CrossAxisAlignment.stretch,
-                        children: [
-                          ElevatedButton(
-                              style: ButtonStyle(
-                                backgroundColor: MaterialStateProperty.all(bgCategoryField),
-                              ),
-                              onPressed: followLink, child: Text('Buka di YouTube',style: TextStyle(color: Colors.white),)
-                          ),
-                        ],
-                      )
+                  Visibility(
+                    visible: widget.detail.videoLink.isNotEmpty,
+                    child: Text(
+                      "Video",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                   ),
-                  SizedBox(height: 14,),
+                  Visibility(
+                    visible: widget.detail.videoLink.isNotEmpty,
+                    child: SizedBox(
+                      height: 4,
+                    ),
+                  ),
+                  Visibility(
+                    visible: widget.detail.videoLink.isNotEmpty,
+                    child: YoutubePlayerWidget(videoUrl: widget.detail.videoLink)),
+                  Visibility(
+                    visible: widget.detail.videoLink.isNotEmpty,
+                    child: Link(
+                        target: LinkTarget.blank,
+                        uri: Uri.parse(
+                            'https://www.youtube.com/results?search_query=' +
+                                widget.detail.title),
+                        builder: (context, followLink) => Column(
+                              crossAxisAlignment: CrossAxisAlignment.stretch,
+                              children: [
+                                ElevatedButton(
+                                    style: ButtonStyle(
+                                      backgroundColor: MaterialStateProperty.all(
+                                          bgCategoryField),
+                                    ),
+                                    onPressed: followLink,
+                                    child: Text(
+                                      'Buka di YouTube',
+                                      style: TextStyle(color: Colors.white),
+                                    )),
+                              ],
+                            )),
+                  ),
+                  SizedBox(
+                    height: 14,
+                  ),
                   Text(
                     "Gambar",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold
-                    ),
+                    style: TextStyle(fontWeight: FontWeight.bold),
                   ),
-                  SizedBox(height: 4,),
+                  SizedBox(
+                    height: 4,
+                  ),
                   Column(
                     children: [
                       Row(
@@ -195,7 +222,9 @@ class _DetailMobileState extends State<DetailMobile> {
                               child: Image.asset(widget.detail.images[0]),
                             ),
                           ),
-                          SizedBox(width: 10,),
+                          SizedBox(
+                            width: 10,
+                          ),
                           Expanded(
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(10),
@@ -204,43 +233,56 @@ class _DetailMobileState extends State<DetailMobile> {
                           )
                         ],
                       ),
-                      SizedBox(height: 10,),
+                      SizedBox(
+                        height: 10,
+                      ),
                       Row(
                         children: [
                           Expanded(
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(10),
-                              child: Image.asset(widget.detail.images[0]),
+                              child: Image.asset(widget.detail.images[2]),
                             ),
                           ),
-                          SizedBox(width: 10,),
+                          SizedBox(
+                            width: 10,
+                          ),
                           Expanded(
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(10),
-                              child: Image.asset(widget.detail.images[1]),
+                              child: Image.asset(widget.detail.images[3]),
                             ),
                           )
                         ],
                       )
                     ],
                   ),
-                  SizedBox(height: 8,),
+                  SizedBox(
+                    height: 8,
+                  ),
                   Link(
                       target: LinkTarget.blank,
-                      uri: Uri.parse('https://www.google.com/search?tbm=isch&q='+widget.detail.title),
+                      uri: Uri.parse(
+                          'https://www.google.com/search?tbm=isch&q=' +
+                              widget.detail.title),
                       builder: (context, followLink) => Column(
-                        crossAxisAlignment: CrossAxisAlignment.stretch,
-                        children: [
-                          ElevatedButton(
-                            style: ButtonStyle(
-                              backgroundColor: MaterialStateProperty.all(bgCategoryField),
-                            ),
-                              onPressed: followLink, child: Text('Lihat Semua', style: TextStyle(color: Colors.white),)
-                          ),
-                        ],
-                      )
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              ElevatedButton(
+                                  style: ButtonStyle(
+                                    backgroundColor: MaterialStateProperty.all(
+                                        bgCategoryField),
+                                  ),
+                                  onPressed: followLink,
+                                  child: Text(
+                                    'Lihat Semua',
+                                    style: TextStyle(color: Colors.white),
+                                  )),
+                            ],
+                          )),
+                  SizedBox(
+                    height: 8,
                   ),
-                  SizedBox(height: 8,),
                 ],
               ),
             )
@@ -266,7 +308,7 @@ class _FavoriteButtonState extends State<FavoriteButton> {
     return IconButton(
       icon: Icon(
         isFavorite ? Icons.favorite : Icons.favorite_border,
-        color: isFavorite ? Colors.red : Colors.grey ,
+        color: isFavorite ? Colors.red : Colors.grey,
       ),
       onPressed: () {
         setState(() {

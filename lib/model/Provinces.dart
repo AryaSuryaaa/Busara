@@ -141,6 +141,7 @@ class Details {
   final String bannerImage;
   final String title;
   final String subTitle;
+  final String category;
   final String description;
   final String videoLink;
   final List<String> images;
@@ -149,6 +150,7 @@ class Details {
     required this.bannerImage,
     required this.title,
     required this.subTitle,
+    required this.category,
     required this.description,
     required this.videoLink,
     required this.images,
@@ -162,6 +164,7 @@ class Details {
     bannerImage: json["banner_image"],
     title: json["title"],
     subTitle: json["sub_title"],
+    category: json["category"],
     description: json["description"],
     videoLink: json["video_link"],
     images: List<String>.from(json["images"].map((x) => x)),
@@ -171,6 +174,7 @@ class Details {
     "banner_image": bannerImage,
     "title": title,
     "sub_title": subTitle,
+    "category": category,
     "description": description,
     "video_link": videoLink,
     "images": List<dynamic>.from(images.map((x) => x)),

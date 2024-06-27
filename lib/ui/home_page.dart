@@ -31,11 +31,11 @@ class HomePage extends StatelessWidget {
               future: DefaultAssetBundle.of(context).loadString('assets/provinces.json'),
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
-                return Center(child: CircularProgressIndicator());
+                return const Center(child: CircularProgressIndicator());
                 } else if (snapshot.hasError) {
                 return Center(child: Text('Error: ${snapshot.error}'));
                 } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-                return Center(child: Text('No data available'));
+                return const Center(child: Text('No data available'));
                 } else {
                   Provinces provinces = Provinces.fromJson(snapshot.data!);
                   return Column(
@@ -45,25 +45,25 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           children: [
                             Container(
-                              margin: EdgeInsets.symmetric(horizontal: 16),
+                              margin: const EdgeInsets.symmetric(horizontal: 16),
                               decoration: BoxDecoration(
                                   color: Colors.white,
                                   boxShadow: [
                                     BoxShadow(
                                       color: Colors.black.withOpacity(0.1),
-                                      offset: Offset(0, 3),
+                                      offset: const Offset(0, 3),
                                       blurRadius: 64,
                                     )
                                   ],
                                   borderRadius:BorderRadiusDirectional.circular(40)
                               ),
-                              child: ListTile(
+                              child: const ListTile(
                                 title: Text("Cari kebudayaan Indonesia"),
                                 trailing: Icon(Icons.search),
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                            const Padding(
+                              padding: EdgeInsets.symmetric(horizontal: 16.0),
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
@@ -89,15 +89,15 @@ class HomePage extends StatelessWidget {
                                 scrollDirection: Axis.horizontal,
                                 itemCount: provinces.provinces.length,
                                 itemBuilder: (context, index) {
-                                  EdgeInsetsGeometry margin = EdgeInsets.only(left: 0);
+                                  EdgeInsetsGeometry margin = const EdgeInsets.only(left: 0);
                                   if (index == 0) {
                                     // Margin for the first item
-                                    margin = EdgeInsets.only(left: 16);
+                                    margin = const EdgeInsets.only(left: 16);
                                   } else if (index == provinces.provinces.length - 1) {
                                     // Margin for the last item
-                                    margin = EdgeInsets.only(left: 8, right:16);
+                                    margin = const EdgeInsets.only(left: 8, right:16);
                                   } else {
-                                    margin = EdgeInsets.only(left: 8);
+                                    margin = const EdgeInsets.only(left: 8);
                                   }
                                   return Container(
                                     margin: margin,
@@ -116,8 +116,8 @@ class HomePage extends StatelessWidget {
                                 },
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                            const Padding(
+                              padding: EdgeInsets.symmetric(horizontal: 16.0),
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
@@ -141,15 +141,15 @@ class HomePage extends StatelessWidget {
                                 scrollDirection: Axis.horizontal,
                                 itemCount: provinces.provinces.length,
                                 itemBuilder: (context, index) {
-                                  EdgeInsetsGeometry margin = EdgeInsets.only(left: 0);
+                                  EdgeInsetsGeometry margin = const EdgeInsets.only(left: 0);
                                   if (index == 0) {
                                     // Margin for the first item
-                                    margin = EdgeInsets.only(left: 16,bottom: 10);
+                                    margin = const EdgeInsets.only(left: 16,bottom: 10);
                                   } else if (index == provinces.provinces.length - 1) {
                                     // Margin for the last item
-                                    margin = EdgeInsets.only(left: 8, right:16, bottom: 10);
+                                    margin = const EdgeInsets.only(left: 8, right:16, bottom: 10);
                                   } else {
-                                    margin = EdgeInsets.only(left: 8, bottom: 10);
+                                    margin = const EdgeInsets.only(left: 8, bottom: 10);
                                   }
                                   final traditionalHouses = provinces.provinces[index].culturalHeritage.traditionalHouses;
                                   return Row(
@@ -158,9 +158,9 @@ class HomePage extends StatelessWidget {
                                         margin: margin,
                                         child: InkWell(
                                           onTap: () {
-                                            // Navigator.push(context, MaterialPageRoute(builder: (context) {
-                                            //   // return DetailScreen(list: list);
-                                            // }));
+                                            Navigator.push(context, MaterialPageRoute(builder: (context) {
+                                              return DetailPage(detail: house.details,);
+                                            }));
                                           },
                                           child: BudayaCard(
                                             title: house.title,
@@ -174,8 +174,8 @@ class HomePage extends StatelessWidget {
                                 },
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                            const Padding(
+                              padding: EdgeInsets.symmetric(horizontal: 16.0),
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
@@ -199,31 +199,31 @@ class HomePage extends StatelessWidget {
                                 scrollDirection: Axis.horizontal,
                                 itemCount: provinces.provinces.length,
                                 itemBuilder: (context, index) {
-                                  EdgeInsetsGeometry margin = EdgeInsets.only(left: 0);
+                                  EdgeInsetsGeometry margin = const EdgeInsets.only(left: 0);
                                   if (index == 0) {
                                     // Margin for the first item
-                                    margin = EdgeInsets.only(left: 16,bottom: 10);
+                                    margin = const EdgeInsets.only(left: 16,bottom: 10);
                                   } else if (index == provinces.provinces.length - 1) {
                                     // Margin for the last item
-                                    margin = EdgeInsets.only(left: 8, right:16, bottom: 10);
+                                    margin = const EdgeInsets.only(left: 8, right:16, bottom: 10);
                                   } else {
-                                    margin = EdgeInsets.only(left: 8, bottom: 10);
+                                    margin = const EdgeInsets.only(left: 8, bottom: 10);
                                   }
-                                  final traditionalHouses = provinces.provinces[index].culturalHeritage.traditionalDances;
+                                  final traditionalDances = provinces.provinces[index].culturalHeritage.traditionalDances;
                                   return Row(
-                                    children: traditionalHouses.map((house) {
+                                    children: traditionalDances.map((dance) {
                                       return Container(
                                         margin: margin,
                                         child: InkWell(
                                           onTap: () {
                                             Navigator.push(context, MaterialPageRoute(builder: (context) {
-                                              return DetailPage(detail: house.details);
+                                              return DetailPage(detail: dance.details);
                                             }));
                                           },
                                           child: BudayaCard(
-                                            title: house.title,
-                                            subTitle: house.subText,
-                                            imagePath: house.image,
+                                            title: dance.title,
+                                            subTitle: dance.subText,
+                                            imagePath: dance.image,
                                           ),
                                         ),
                                       );
@@ -232,8 +232,8 @@ class HomePage extends StatelessWidget {
                                 },
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                            const Padding(
+                              padding: EdgeInsets.symmetric(horizontal: 16.0),
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
@@ -253,7 +253,7 @@ class HomePage extends StatelessWidget {
                             ),
                             Container(
                               alignment: Alignment.center,
-                              child: Text(
+                              child: const Text(
                                 "coming soon",
                                 style: TextStyle(
                                     fontWeight: FontWeight.w600,
@@ -269,7 +269,7 @@ class HomePage extends StatelessWidget {
                 }
               },
             ),
-        
+
           ],
         ),
       ),

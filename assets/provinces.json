@@ -15,6 +15,7 @@
               "banner_image": "url_to_banner_image_rendang",
               "title": "Rendang",
               "sub_title": "Makanan pedas dan lezat",
+              "category": "",
               "description": "Rendang adalah hidangan daging yang dimasak dengan santan dan rempah-rempah.",
               "video_link": "url_to_video_rendang",
               "images": [
@@ -34,16 +35,17 @@
             "updated_date": "2024-06-26",
             "province": "Sumatera Utara",
             "details": {
-              "banner_image": "url_to_banner_image_rumah_batak",
-              "title": "Rumah Batak",
-              "sub_title": "Arsitektur tradisional yang unik",
-              "description": "Rumah Batak memiliki desain yang khas dengan atap melengkung yang menyerupai tanduk kerbau.",
+              "banner_image": "images/sumuthomepic.jpg",
+              "title": "Rumah Bolon",
+              "sub_title": "Sumatera Utara",
+              "category": "Rumah Adat",
+              "description": "Pada rumah adat Bolon ini, terdapat dua bagian yang berbeda, yaitu Jabu Bolon dan juga Jabu Parsakitan. Jabu Bolon biasa menjadi tempat untuk keluarga besar, sedangkan Jabu Parsakitan adalah tempat untuk membicarakan masalah adat. Keunikan dari rumah adat Sumatera Utara ini adalah tidak ada sekatan antara setiap ruangan. Jadinya, semua anggota keluarga tidur bersama di dalam ruangan besar.",
               "video_link": "",
               "images": [
                 "images/sumuthomepic.jpg",
-                "images/sumuthomepic.jpg",
-                "images/sumuthomepic.jpg",
-                "images/sumuthomepic.jpg"
+                "images/rumahbolon1.jpeg",
+                "images/rumahbolon2.jpeg",
+                "images/rumahbolon3.jpg"
               ]
             }
           }
@@ -56,16 +58,17 @@
             "updated_date": "2024-06-26",
             "province": "Sumatera Utara",
             "details": {
-              "banner_image": "url_to_banner_image_tari_tortor",
+              "banner_image": "images/taritortor.jpg",
               "title": "Tari Tortor",
-              "sub_title": "Tarian sakral dan penuh makna",
+              "sub_title": "Sumatera Utara",
+              "category": "Tarian Adat",
               "description": "Tari tor-tor berasal dari Sumatera Utara. Tari tradisional ini semula dikaitkan dengan ritual dan roh, sehingga dipentaskan ketika ada anggota keluarga yang meninggal. Kini, tari tor-tor menjadi tari tradisional yang kerap dipentaskan di beragam acara di Sumatera Utara.",
               "video_link": "https://www.youtube.com/watch?v=TwMi6YFwZt8&pp=ygULdGFyaSB0b3J0b3I%3D",
               "images": [
                 "images/taritortor.jpg",
-                "images/taritortor.jpg",
-                "images/taritortor.jpg",
-                "images/taritortor.jpg"
+                "images/taritortor1.jpg",
+                "images/taritortor2.jpeg",
+                "images/taritortor3.jpg"
               ]
             }
           }
@@ -81,6 +84,7 @@
               "banner_image": "url_to_banner_image_pedang",
               "title": "Pedang",
               "sub_title": "Simbol kekuatan dan keberanian",
+              "category": "Senjata Tradisional",
               "description": "Pedang adalah senjata tradisional yang digunakan dalam berbagai upacara adat dan simbol keberanian.",
               "video_link": "url_to_video_pedang",
               "images": [
@@ -103,6 +107,7 @@
               "banner_image": "url_to_banner_image_upacara",
               "title": "Upacara Adat",
               "sub_title": "Simbol kebersamaan dan kepercayaan",
+              "category": "Adat Istiadat",
               "description": "Upacara adat di Sumatera Utara adalah simbol kebersamaan dan kepercayaan masyarakat setempat.",
               "video_link": "url_to_video_upacara",
               "images": [
@@ -131,6 +136,7 @@
               "banner_image": "url_to_banner_image_babi_guling",
               "title": "Babi Guling",
               "sub_title": "Hidangan dengan cita rasa khas",
+              "category": "",
               "description": "Babi Guling adalah hidangan tradisional Bali yang terkenal dengan cita rasa bumbunya yang khas.",
               "video_link": "url_to_video_babi_guling",
               "images": [
@@ -150,16 +156,17 @@
             "updated_date": "2024-06-26",
             "province": "Bali",
             "details": {
-              "banner_image": "url_to_banner_image_rumah_bali",
-              "title": "Rumah Adat Bali",
-              "sub_title": "Desain yang unik dan artistik",
+              "banner_image": "images/puripic.png",
+              "title": "Puri",
+              "sub_title": "Bali",
+              "category": "Rumah Adat",
               "description": "Rumah adat Bali memiliki desain yang unik dan penuh dengan seni serta makna filosofis.",
               "video_link": "url_to_video_rumah_bali",
               "images": [
-                "url_to_image1_rumah_bali",
-                "url_to_image2_rumah_bali",
-                "url_to_image3_rumah_bali",
-                "url_to_image4_rumah_bali"
+                "images/puripic.png",
+                "images/puripic2.jpg",
+                "images/puripic3.jpeg",
+                "images/puripic4.jpeg"
               ]
             }
           }
@@ -174,14 +181,15 @@
             "details": {
               "banner_image": "url_to_banner_image_tari_kecak",
               "title": "Tari Kecak",
-              "sub_title": "Tarian yang memukau",
+              "sub_title": "Bali",
+              "category": "Tarian Adat",
               "description": "Tari kecak adalah tari tradisional yang semula merupakan bagian prosesi keagamaan Hindu di Bali. Salah satu penari akan menjadi media komunikasi dengan dewa dan pengusir roh jahat. Seiring waktu, tari kecak digabungkan dengan pertunjukan teater yang menggambarkan kisah Ramayana lewat gerak tari. Uniknya, tidak ada instrumen alat musik yang mengiringi tari ini, melainkan bunyi dari suara penarinya sendiri.",
               "video_link": "https://www.youtube.com/watch?v=XCM54pKkQSE&pp=ygUKdGFyaSBrZWNhaw%3D%3D",
               "images": [
                 "images/tarikecak.jpeg",
-                "images/tarikecak.jpeg",
-                "images/tarikecak.jpeg",
-                "images/tarikecak.jpeg"
+                "images/tarikecak1.jpg",
+                "images/tarikecak2.webp",
+                "images/tarikecak3.jpeg"
               ]
             }
           }
@@ -197,6 +205,7 @@
               "banner_image": "url_to_banner_image_keris",
               "title": "Keris",
               "sub_title": "Simbol kekuatan dan spiritualitas",
+              "category": "Senjata Tradisional",
               "description": "Keris adalah senjata tradisional Bali yang memiliki makna spiritual dan digunakan dalam berbagai upacara adat.",
               "video_link": "url_to_video_keris",
               "images": [
@@ -219,6 +228,7 @@
               "banner_image": "url_to_banner_image_ngaben",
               "title": "Ngaben",
               "sub_title": "Simbol perpisahan dan penghormatan",
+              "category": "Adat Istiadat",
               "description": "Ngaben adalah upacara kremasi adat Bali yang melambangkan penghormatan terakhir kepada leluhur.",
               "video_link": "url_to_video_ngaben",
               "images": [
@@ -247,6 +257,7 @@
               "banner_image": "url_to_banner_image_rendang",
               "title": "Rendang",
               "sub_title": "Makanan pedas dan lezat",
+              "category": "",
               "description": "Rendang adalah hidangan daging yang dimasak dengan santan dan rempah-rempah.",
               "video_link": "url_to_video_rendang",
               "images": [
@@ -260,44 +271,46 @@
         ],
         "traditional_houses": [
           {
-            "image": "images/sumuthomepic.jpg",
-            "title": "Rumah Bolon",
-            "sub_text": "Sumatera Utara",
-            "updated_date": "2024-06-26",
-            "province": "Sumatera Utara",
+            "image": "images/rmhkrongbade1.jpg",
+            "title": "Rumah Krong Bade",
+            "sub_text": "Nanggroe Aceh Darussalam",
+            "updated_date": "2024-06-27",
+            "province": "Nanggroe Aceh Darussalam",
             "details": {
-              "banner_image": "url_to_banner_image_rumah_batak",
-              "title": "Rumah Batak",
-              "sub_title": "Arsitektur tradisional yang unik",
-              "description": "Rumah Batak memiliki desain yang khas dengan atap melengkung yang menyerupai tanduk kerbau.",
+              "banner_image": "images/rmhkrongbade1.jpg",
+              "title": "Rumah Krong Bade",
+              "sub_title": "Nanggroe Aceh Darussalam",
+              "category": "Rumah Adat",
+              "description": "Rumah Krong Bade dari Aceh berbentuk memanjang dari timur ke barat menyerupai persegi panjang. Di bagian depan rumah dilengkapi dengan tangga untuk masuk ke dalam rumah. Umumnya, tangga pada rumah adat Aceh ini jumlahnya ganjil, yaitu sekitar 7 hingga 9 anak tangga.",
               "video_link": "",
               "images": [
-                "images/sumuthomepic.jpg",
-                "images/sumuthomepic.jpg",
-                "images/sumuthomepic.jpg",
-                "images/sumuthomepic.jpg"
+                "images/rmhkrongbade1.jpg",
+                "images/rmhkrongbade2.webp",
+                "images/rmhkrongbade3.jpeg",
+                "images/rmhkrongbade4.png"
               ]
             }
           }
         ],
         "traditional_dances": [
           {
-            "image": "images/taritortor.jpg",
-            "title": "Tari Tor-tor",
-            "sub_text": "Sumatera Utara",
+            "image": "images/tarijaipong1.jpg",
+            "title": "Tari JaipongJawa Barat",
+            "sub_text": "Jawa Barat",
             "updated_date": "2024-06-26",
-            "province": "Sumatera Utara",
+            "province": "Jawa Barat",
             "details": {
               "banner_image": "url_to_banner_image_tari_tortor",
-              "title": "Tari Tortor",
-              "sub_title": "Tarian sakral dan penuh makna",
-              "description": "Tari tor-tor berasal dari Sumatera Utara. Tari tradisional ini semula dikaitkan dengan ritual dan roh, sehingga dipentaskan ketika ada anggota keluarga yang meninggal. Kini, tari tor-tor menjadi tari tradisional yang kerap dipentaskan di beragam acara di Sumatera Utara.",
-              "video_link": "https://www.youtube.com/watch?v=TwMi6YFwZt8&pp=ygULdGFyaSB0b3J0b3I%3D",
+              "title": "Tari Jaipong",
+              "sub_title": "Jawa Barat",
+              "category": "Tarian Adat",
+              "description": "Tari jaipong adalah tarian tradisional yang berasal dari Jawa Barat. Tari jaipong memadukan gerakan tari ketuk tilu, tari ronggeng, dan gerakan pencak silat.",
+              "video_link": "https://www.youtube.com/watch?v=3aEWmmbaCKU&pp=ygUMVGFyaSBKYWlwb25n",
               "images": [
-                "images/taritortor.jpg",
-                "images/taritortor.jpg",
-                "images/taritortor.jpg",
-                "images/taritortor.jpg"
+                "images/tarijaipong1.jpg",
+                "images/tarijaipong2.png",
+                "images/tarijaipong3.jpg",
+                "images/tarijaipong4.jpeg"
               ]
             }
           }
@@ -313,6 +326,7 @@
               "banner_image": "url_to_banner_image_pedang",
               "title": "Pedang",
               "sub_title": "Simbol kekuatan dan keberanian",
+              "category": "Senjata Tradisional",
               "description": "Pedang adalah senjata tradisional yang digunakan dalam berbagai upacara adat dan simbol keberanian.",
               "video_link": "url_to_video_pedang",
               "images": [
@@ -335,6 +349,7 @@
               "banner_image": "url_to_banner_image_upacara",
               "title": "Upacara Adat",
               "sub_title": "Simbol kebersamaan dan kepercayaan",
+              "category": "Adat Istiadat",
               "description": "Upacara adat di Sumatera Utara adalah simbol kebersamaan dan kepercayaan masyarakat setempat.",
               "video_link": "url_to_video_upacara",
               "images": [
@@ -363,6 +378,7 @@
               "banner_image": "url_to_banner_image_babi_guling",
               "title": "Babi Guling",
               "sub_title": "Hidangan dengan cita rasa khas",
+              "category": "",
               "description": "Babi Guling adalah hidangan tradisional Bali yang terkenal dengan cita rasa bumbunya yang khas.",
               "video_link": "url_to_video_babi_guling",
               "images": [
@@ -376,44 +392,46 @@
         ],
         "traditional_houses": [
           {
-            "image": "images/puripic.png",
-            "title": "Puri",
-            "sub_text": "Bali",
+            "image": "images/rumahkebaya1.webp",
+            "title": "Rumah Kebaya",
+            "sub_text": "DKI Jakarta",
             "updated_date": "2024-06-26",
-            "province": "Bali",
+            "province": "DKI Jakarta",
             "details": {
-              "banner_image": "url_to_banner_image_rumah_bali",
-              "title": "Rumah Adat Bali",
-              "sub_title": "Desain yang unik dan artistik",
-              "description": "Rumah adat Bali memiliki desain yang unik dan penuh dengan seni serta makna filosofis.",
+              "banner_image": "images/rumahkebaya1.webp",
+              "title": "Rumah Kebaya",
+              "sub_title": "DKI Jakarta",
+              "category": "Rumah Adat",
+              "description": "Rumah Kebaya dari DKI Jakarta mengusung corak khas suku Betawi. Atap dari rumah ini menyerupai pelana terlipat dan memiliki corak-corak yang khas seperti kebaya. Rumah Kebaya memiliki teras yang luas bertujuan untuk menjadi tempat santai keluarga dan menyambut tamu.",
               "video_link": "url_to_video_rumah_bali",
               "images": [
-                "url_to_image1_rumah_bali",
-                "url_to_image2_rumah_bali",
-                "url_to_image3_rumah_bali",
-                "url_to_image4_rumah_bali"
+                "images/rumahkebaya1.webp",
+                "images/rumahkebaya2.jpeg",
+                "images/rumahkebaya3.jpg",
+                "images/rumahkebaya4.jpg"
               ]
             }
           }
         ],
         "traditional_dances": [
           {
-            "image": "images/tarikecak.jpeg",
-            "title": "Tari Kecak",
-            "sub_text": "Bali",
+            "image": "images/tarisaman1.jpg",
+            "title": "Tari Saman",
+            "sub_text": "Nanggroe Aceh Darussalam",
             "updated_date": "2024-06-26",
-            "province": "Bali",
+            "province": "Nanggroe Aceh Darussalam",
             "details": {
               "banner_image": "url_to_banner_image_tari_kecak",
-              "title": "Tari Kecak",
-              "sub_title": "Tarian yang memukau",
-              "description": "Tari kecak adalah tari tradisional yang semula merupakan bagian prosesi keagamaan Hindu di Bali. Salah satu penari akan menjadi media komunikasi dengan dewa dan pengusir roh jahat. Seiring waktu, tari kecak digabungkan dengan pertunjukan teater yang menggambarkan kisah Ramayana lewat gerak tari. Uniknya, tidak ada instrumen alat musik yang mengiringi tari ini, melainkan bunyi dari suara penarinya sendiri.",
-              "video_link": "https://www.youtube.com/watch?v=XCM54pKkQSE&pp=ygUKdGFyaSBrZWNhaw%3D%3D",
+              "title": "Tari Saman",
+              "sub_title": "Nanggroe Aceh Darussalam",
+              "category": "Tarian Adat",
+              "description": "Tari saman berasal dari Aceh Tenggara. Tarian tradisional ini khas dengan posisi duduk dan gerak tepukan ke dada, pundak, paha, dan tangan. Sambil duduk, penari juga duduk meliuk dengan bertumpu pada lutut. Keserempakan dan kecepatan tepukan penari menjadi daya tarik tari tradisonal Aceh yang hanya diiringi gendang rampak dan suara tepukan tangan ini.",
+              "video_link": "https://www.youtube.com/watch?v=SG-Aw5_v8BQ&pp=ygUKVGFyaSBTYW1hbg%3D%3D",
               "images": [
-                "images/tarikecak.jpeg",
-                "images/tarikecak.jpeg",
-                "images/tarikecak.jpeg",
-                "images/tarikecak.jpeg"
+                "images/tarisaman1.jpg",
+                "images/tarisaman2.jpeg",
+                "images/tarisaman3.jpg",
+                "images/tarisaman3.jpg"
               ]
             }
           }
@@ -429,6 +447,7 @@
               "banner_image": "url_to_banner_image_keris",
               "title": "Keris",
               "sub_title": "Simbol kekuatan dan spiritualitas",
+              "category": "Senjata Tradisional",
               "description": "Keris adalah senjata tradisional Bali yang memiliki makna spiritual dan digunakan dalam berbagai upacara adat.",
               "video_link": "url_to_video_keris",
               "images": [
@@ -451,6 +470,7 @@
               "banner_image": "url_to_banner_image_ngaben",
               "title": "Ngaben",
               "sub_title": "Simbol perpisahan dan penghormatan",
+              "category": "Adat Istiadat",
               "description": "Ngaben adalah upacara kremasi adat Bali yang melambangkan penghormatan terakhir kepada leluhur.",
               "video_link": "url_to_video_ngaben",
               "images": [
@@ -479,6 +499,7 @@
               "banner_image": "url_to_banner_image_rendang",
               "title": "Rendang",
               "sub_title": "Makanan pedas dan lezat",
+              "category": "",
               "description": "Rendang adalah hidangan daging yang dimasak dengan santan dan rempah-rempah.",
               "video_link": "url_to_video_rendang",
               "images": [
@@ -492,44 +513,46 @@
         ],
         "traditional_houses": [
           {
-            "image": "images/sumuthomepic.jpg",
-            "title": "Rumah Bolon",
-            "sub_text": "Sumatera Utara",
+            "image": "images/rumahboyang1.webp",
+            "title": "Rumah Boyang",
+            "sub_text": "Sulawesi Barat",
             "updated_date": "2024-06-26",
-            "province": "Sumatera Utara",
+            "province": "Sulawesi Barat",
             "details": {
-              "banner_image": "url_to_banner_image_rumah_batak",
+              "banner_image": "images/rumahboyang1.webp",
               "title": "Rumah Batak",
-              "sub_title": "Arsitektur tradisional yang unik",
-              "description": "Rumah Batak memiliki desain yang khas dengan atap melengkung yang menyerupai tanduk kerbau.",
+              "sub_title": "Sulawesi Barat",
+              "category": "Rumah Adat",
+              "description": "Rumah adat dari Provinsi Sulawesi Barat ini bernama Boyang. Desain dari rumah ini tampak sangat unik karena pada bagian bawah tidak langsung menancap ke tanah, melainkan ada batu datar yang digunakan untuk pondasinya.",
               "video_link": "",
               "images": [
-                "images/sumuthomepic.jpg",
-                "images/sumuthomepic.jpg",
-                "images/sumuthomepic.jpg",
-                "images/sumuthomepic.jpg"
+                "images/rumahboyang1.webp",
+                "images/rumahboyang2.jpeg",
+                "images/rumahboyang3.jpg",
+                "images/rumahboyang4.jpg"
               ]
             }
           }
         ],
         "traditional_dances": [
           {
-            "image": "images/taritortor.jpg",
-            "title": "Tari Tor-tor",
-            "sub_text": "Sumatera Utara",
+            "image": "images/taripiring1.jpg",
+            "title": "Tari Piring",
+            "sub_text": "Sumatera Barat",
             "updated_date": "2024-06-26",
-            "province": "Sumatera Utara",
+            "province": "Sumatera Barat",
             "details": {
-              "banner_image": "url_to_banner_image_tari_tortor",
-              "title": "Tari Tortor",
-              "sub_title": "Tarian sakral dan penuh makna",
-              "description": "Tari tor-tor berasal dari Sumatera Utara. Tari tradisional ini semula dikaitkan dengan ritual dan roh, sehingga dipentaskan ketika ada anggota keluarga yang meninggal. Kini, tari tor-tor menjadi tari tradisional yang kerap dipentaskan di beragam acara di Sumatera Utara.",
-              "video_link": "https://www.youtube.com/watch?v=TwMi6YFwZt8&pp=ygULdGFyaSB0b3J0b3I%3D",
+              "banner_image": "url_to_banner_image_tari_kecak",
+              "title": "Tari Piring",
+              "sub_title": "Sumatera Barat",
+              "category": "Tarian Adat",
+              "description": "Tari piring berasal dari orang Minangkabau di Sumatera Barat. Tari ini semula merupakan bentuk syukur atas hasil panen, ketika warga setempat memeluk agama Hindu. Kelak, masuknya agama Islam membuat tari piring berfungsi sebagai bentuk hiburan dan persembahan bagi tamu dan masyarakat.",
+              "video_link": "https://www.youtube.com/watch?v=IfdA7JhLlh0&pp=ygUMVGFyaSBUYW5nZ2Fp",
               "images": [
-                "images/taritortor.jpg",
-                "images/taritortor.jpg",
-                "images/taritortor.jpg",
-                "images/taritortor.jpg"
+                "images/taripiring1.jpg",
+                "images/taripiring2.png",
+                "images/taripiring3.jpg",
+                "images/taripiring4.jpg"
               ]
             }
           }
@@ -545,6 +568,7 @@
               "banner_image": "url_to_banner_image_pedang",
               "title": "Pedang",
               "sub_title": "Simbol kekuatan dan keberanian",
+              "category": "Senjata Tradisional",
               "description": "Pedang adalah senjata tradisional yang digunakan dalam berbagai upacara adat dan simbol keberanian.",
               "video_link": "url_to_video_pedang",
               "images": [
@@ -567,6 +591,7 @@
               "banner_image": "url_to_banner_image_upacara",
               "title": "Upacara Adat",
               "sub_title": "Simbol kebersamaan dan kepercayaan",
+              "category": "Adat Istiadat",
               "description": "Upacara adat di Sumatera Utara adalah simbol kebersamaan dan kepercayaan masyarakat setempat.",
               "video_link": "url_to_video_upacara",
               "images": [
@@ -595,6 +620,7 @@
               "banner_image": "url_to_banner_image_babi_guling",
               "title": "Babi Guling",
               "sub_title": "Hidangan dengan cita rasa khas",
+              "category": "",
               "description": "Babi Guling adalah hidangan tradisional Bali yang terkenal dengan cita rasa bumbunya yang khas.",
               "video_link": "url_to_video_babi_guling",
               "images": [
@@ -608,44 +634,46 @@
         ],
         "traditional_houses": [
           {
-            "image": "images/puripic.png",
-            "title": "Puri",
-            "sub_text": "Bali",
+            "image": "images/rumahjoglo1.jpg",
+            "title": "Rumah Joglo",
+            "sub_text": "Jawa Tengah",
             "updated_date": "2024-06-26",
-            "province": "Bali",
+            "province": "Jawa Tengah",
             "details": {
-              "banner_image": "url_to_banner_image_rumah_bali",
-              "title": "Rumah Adat Bali",
-              "sub_title": "Desain yang unik dan artistik",
-              "description": "Rumah adat Bali memiliki desain yang unik dan penuh dengan seni serta makna filosofis.",
+              "banner_image": "images/rumahjoglo1.jpg",
+              "title": "Rumah Joglo",
+              "sub_title": "Jawa Tengah",
+              "category": "Rumah Adat",
+              "description": "Rumah adat dari Jawa Tengah yang sering disebut sebagai Rumah Joglo ini memiliki bagian depan rumah yang disebut pendopo untuk menjamu tamu. Rumah adat Jawa Tengah ini memiliki empat tiang penopang. Selain itu, Anda juga bisa melihat sentuhan kejawen dari suku Jawa di sisi-sisi rumah.",
               "video_link": "url_to_video_rumah_bali",
               "images": [
-                "url_to_image1_rumah_bali",
-                "url_to_image2_rumah_bali",
-                "url_to_image3_rumah_bali",
-                "url_to_image4_rumah_bali"
+                "images/rumahjoglo1.jpg",
+                "images/rumahjoglo2.jpg",
+                "images/rumahjoglo3.jpg",
+                "images/rumahjoglo4.jpg"
               ]
             }
           }
         ],
         "traditional_dances": [
           {
-            "image": "images/tarikecak.jpeg",
-            "title": "Tari Kecak",
-            "sub_text": "Bali",
+            "image": "images/tarimonong1.jpg",
+            "title": "Tari Monong",
+            "sub_text": "Kalimantan Barat",
             "updated_date": "2024-06-26",
-            "province": "Bali",
+            "province": "Kalimantan Barat",
             "details": {
-              "banner_image": "url_to_banner_image_tari_kecak",
-              "title": "Tari Kecak",
-              "sub_title": "Tarian yang memukau",
-              "description": "Tari kecak adalah tari tradisional yang semula merupakan bagian prosesi keagamaan Hindu di Bali. Salah satu penari akan menjadi media komunikasi dengan dewa dan pengusir roh jahat. Seiring waktu, tari kecak digabungkan dengan pertunjukan teater yang menggambarkan kisah Ramayana lewat gerak tari. Uniknya, tidak ada instrumen alat musik yang mengiringi tari ini, melainkan bunyi dari suara penarinya sendiri.",
-              "video_link": "https://www.youtube.com/watch?v=XCM54pKkQSE&pp=ygUKdGFyaSBrZWNhaw%3D%3D",
+              "banner_image": "url_to_banner_image_tari_tortor",
+              "title": "Tari Monong",
+              "sub_title": "Kalimantan Barat",
+              "category": "Tarian Adat",
+              "description": "Tari monong adalah tarian tradisional Kalimantan Barat yang semula berfungsi sebagai tolak bala atau penyembuhan. Kini, tari monong juga dipentaskan secara umum.",
+              "video_link": "https://www.youtube.com/watch?v=1FYniRzesdI&pp=ygULVGFyaSBNb25vbmc%3D",
               "images": [
-                "images/tarikecak.jpeg",
-                "images/tarikecak.jpeg",
-                "images/tarikecak.jpeg",
-                "images/tarikecak.jpeg"
+                "images/tarimonong1.jpg",
+                "images/tarimonong2.jpg",
+                "images/tarimonong3.jpeg",
+                "images/tarimonong4.jpg"
               ]
             }
           }
@@ -661,6 +689,7 @@
               "banner_image": "url_to_banner_image_keris",
               "title": "Keris",
               "sub_title": "Simbol kekuatan dan spiritualitas",
+              "category": "Senjata Tradisional",
               "description": "Keris adalah senjata tradisional Bali yang memiliki makna spiritual dan digunakan dalam berbagai upacara adat.",
               "video_link": "url_to_video_keris",
               "images": [
@@ -683,6 +712,7 @@
               "banner_image": "url_to_banner_image_ngaben",
               "title": "Ngaben",
               "sub_title": "Simbol perpisahan dan penghormatan",
+              "category": "Adat Istiadat",
               "description": "Ngaben adalah upacara kremasi adat Bali yang melambangkan penghormatan terakhir kepada leluhur.",
               "video_link": "url_to_video_ngaben",
               "images": [
@@ -711,6 +741,7 @@
               "banner_image": "url_to_banner_image_rendang",
               "title": "Rendang",
               "sub_title": "Makanan pedas dan lezat",
+              "category": "",
               "description": "Rendang adalah hidangan daging yang dimasak dengan santan dan rempah-rempah.",
               "video_link": "url_to_video_rendang",
               "images": [
@@ -724,44 +755,46 @@
         ],
         "traditional_houses": [
           {
-            "image": "images/sumuthomepic.jpg",
-            "title": "Rumah Bolon",
-            "sub_text": "Sumatera Utara",
+            "image": "images/rumahpanggung1.jpeg",
+            "title": "Rumah Panggung",
+            "sub_text": "Jambi",
             "updated_date": "2024-06-26",
-            "province": "Sumatera Utara",
+            "province": "Jambi",
             "details": {
-              "banner_image": "url_to_banner_image_rumah_batak",
-              "title": "Rumah Batak",
-              "sub_title": "Arsitektur tradisional yang unik",
-              "description": "Rumah Batak memiliki desain yang khas dengan atap melengkung yang menyerupai tanduk kerbau.",
+              "banner_image": "images/rumahpanggung1.jpeg",
+              "title": "Rumah Panggung",
+              "sub_title": "Jambi",
+              "category": "Rumah Adat",
+              "description": "Rumah adat provinsi Jambi ini adalah desain yang tertua di daerah tersebut, dengan bentuk persegi panjang. Rumah adat Panggung dilengkapi dengan tangga di depan rumah. Orang-orang sering menyebutkan bagian atap dari rumah panggung ini sebagai “Gajah Mabuk” karena bentuknya yang menyerupai perahu dengan ujung melengkung. Biasanya, rumah adat dari Jambi digunakan untuk tempat tinggal dan juga tempat bermusyawarah.",
               "video_link": "",
               "images": [
-                "images/sumuthomepic.jpg",
-                "images/sumuthomepic.jpg",
-                "images/sumuthomepic.jpg",
-                "images/sumuthomepic.jpg"
+                "images/rumahpanggung1.jpeg",
+                "images/rumahpanggung2.jpeg",
+                "images/rumahpanggung3.jpeg",
+                "images/rumahpanggung4.jpeg"
               ]
             }
           }
         ],
         "traditional_dances": [
           {
-            "image": "images/taritortor.jpg",
-            "title": "Tari Tor-tor",
-            "sub_text": "Sumatera Utara",
+            "image": "images/taridero1.jpg",
+            "title": "Tari Dero",
+            "sub_text": "Sulawesi Tengah",
             "updated_date": "2024-06-26",
-            "province": "Sumatera Utara",
+            "province": "Sulawesi Tengah",
             "details": {
-              "banner_image": "url_to_banner_image_tari_tortor",
-              "title": "Tari Tortor",
-              "sub_title": "Tarian sakral dan penuh makna",
-              "description": "Tari tor-tor berasal dari Sumatera Utara. Tari tradisional ini semula dikaitkan dengan ritual dan roh, sehingga dipentaskan ketika ada anggota keluarga yang meninggal. Kini, tari tor-tor menjadi tari tradisional yang kerap dipentaskan di beragam acara di Sumatera Utara.",
-              "video_link": "https://www.youtube.com/watch?v=TwMi6YFwZt8&pp=ygULdGFyaSB0b3J0b3I%3D",
+              "banner_image": "url_to_banner_image_tari_kecak",
+              "title": "Tari Dero",
+              "sub_title": "Sulawesi Tengah",
+              "category": "Tarian Adat",
+              "description": "Tarian tradisional ini berasal dari Poso, Sulawesi Tengah. Penari perempuan dan laki-laki membentuk lingkaran dan berpegangan tangan, lalu menari dengan iringan lagu, pantun, gendang, dan gong.",
+              "video_link": "https://www.youtube.com/watch?v=XmslsO6EIUY&pp=ygUJVGFyaSBEZXJv",
               "images": [
-                "images/taritortor.jpg",
-                "images/taritortor.jpg",
-                "images/taritortor.jpg",
-                "images/taritortor.jpg"
+                "images/taridero1.jpg",
+                "images/taridero2.jpg",
+                "images/taridero3.jpg",
+                "images/taridero4.jpeg"
               ]
             }
           }
@@ -777,6 +810,7 @@
               "banner_image": "url_to_banner_image_pedang",
               "title": "Pedang",
               "sub_title": "Simbol kekuatan dan keberanian",
+              "category": "Senjata Tradisional",
               "description": "Pedang adalah senjata tradisional yang digunakan dalam berbagai upacara adat dan simbol keberanian.",
               "video_link": "url_to_video_pedang",
               "images": [
@@ -799,6 +833,7 @@
               "banner_image": "url_to_banner_image_upacara",
               "title": "Upacara Adat",
               "sub_title": "Simbol kebersamaan dan kepercayaan",
+              "category": "Adat Istiadat",
               "description": "Upacara adat di Sumatera Utara adalah simbol kebersamaan dan kepercayaan masyarakat setempat.",
               "video_link": "url_to_video_upacara",
               "images": [
@@ -827,6 +862,7 @@
               "banner_image": "url_to_banner_image_babi_guling",
               "title": "Babi Guling",
               "sub_title": "Hidangan dengan cita rasa khas",
+              "category": "",
               "description": "Babi Guling adalah hidangan tradisional Bali yang terkenal dengan cita rasa bumbunya yang khas.",
               "video_link": "url_to_video_babi_guling",
               "images": [
@@ -840,44 +876,46 @@
         ],
         "traditional_houses": [
           {
-            "image": "images/puripic.png",
-            "title": "Puri",
-            "sub_text": "Bali",
+            "image": "images/rumahpanjang1.webp",
+            "title": "Rumah Panjang",
+            "sub_text": "Kalimantan Barat",
             "updated_date": "2024-06-26",
-            "province": "Bali",
+            "province": "Kalimantan Barat",
             "details": {
-              "banner_image": "url_to_banner_image_rumah_bali",
-              "title": "Rumah Adat Bali",
-              "sub_title": "Desain yang unik dan artistik",
-              "description": "Rumah adat Bali memiliki desain yang unik dan penuh dengan seni serta makna filosofis.",
+              "banner_image": "images/rumahpanjang1.webp",
+              "title": "Rumah Panjang",
+              "sub_title": "Kalimantan Barat",
+              "category": "Rumah Adat",
+              "description": "Rumah adat Provinsi Kalimantan Barat ini mempunyai ukuran yang besar dan terdiri dari dua bagian, yaitu bangunan atas dan bawah. Rumah ini sangat unik karena memadukan kesan modern dan tradisional sekaligus. Arsitektur Rumah Panjang bertema budaya Suku Dayak pada beberapa sisi bangunannya.",
               "video_link": "url_to_video_rumah_bali",
               "images": [
-                "url_to_image1_rumah_bali",
-                "url_to_image2_rumah_bali",
-                "url_to_image3_rumah_bali",
-                "url_to_image4_rumah_bali"
+                "images/rumahpanjang1.webp",
+                "images/rumahpanjang2.jpeg",
+                "images/rumahpanjang4.jpeg",
+                "images/rumahpanjang3.jpg"
               ]
             }
           }
         ],
         "traditional_dances": [
           {
-            "image": "images/tarikecak.jpeg",
-            "title": "Tari Kecak",
-            "sub_text": "Bali",
+            "image": "images/tariserimpi2.jpeg",
+            "title": "Tari Serimpi",
+            "sub_text": "Daerah Istimewa Yogyakarta",
             "updated_date": "2024-06-26",
-            "province": "Bali",
+            "province": "Daerah Istimewa Yogyakarta",
             "details": {
               "banner_image": "url_to_banner_image_tari_kecak",
-              "title": "Tari Kecak",
-              "sub_title": "Tarian yang memukau",
-              "description": "Tari kecak adalah tari tradisional yang semula merupakan bagian prosesi keagamaan Hindu di Bali. Salah satu penari akan menjadi media komunikasi dengan dewa dan pengusir roh jahat. Seiring waktu, tari kecak digabungkan dengan pertunjukan teater yang menggambarkan kisah Ramayana lewat gerak tari. Uniknya, tidak ada instrumen alat musik yang mengiringi tari ini, melainkan bunyi dari suara penarinya sendiri.",
-              "video_link": "https://www.youtube.com/watch?v=XCM54pKkQSE&pp=ygUKdGFyaSBrZWNhaw%3D%3D",
+              "title": "Tari Serimpi",
+              "sub_title": "Daerah Istimewa Yogyakarta",
+              "category": "Tarian Adat",
+              "description": "Tari serimpi adalah tari tradisional dengan penari yang mewakili air, api, angin, dan tanah, serta empat penjuru mata angin. Tari sakral ini dipentaskan di lingkungan keraton.",
+              "video_link": "https://www.youtube.com/watch?v=bv8vrrX4lYM&pp=ygUMVGFyaSBTZXJpbXBp",
               "images": [
-                "images/tarikecak.jpeg",
-                "images/tarikecak.jpeg",
-                "images/tarikecak.jpeg",
-                "images/tarikecak.jpeg"
+                "images/tariserimpi1.jpeg",
+                "images/tariserimpi2.jpeg",
+                "images/tariserimpi3.webp",
+                "images/tariserimpi4.jpeg"
               ]
             }
           }
@@ -893,6 +931,7 @@
               "banner_image": "url_to_banner_image_keris",
               "title": "Keris",
               "sub_title": "Simbol kekuatan dan spiritualitas",
+              "category": "Senjata Tradisional",
               "description": "Keris adalah senjata tradisional Bali yang memiliki makna spiritual dan digunakan dalam berbagai upacara adat.",
               "video_link": "url_to_video_keris",
               "images": [
@@ -915,6 +954,7 @@
               "banner_image": "url_to_banner_image_ngaben",
               "title": "Ngaben",
               "sub_title": "Simbol perpisahan dan penghormatan",
+              "category": "Adat Istiadat",
               "description": "Ngaben adalah upacara kremasi adat Bali yang melambangkan penghormatan terakhir kepada leluhur.",
               "video_link": "url_to_video_ngaben",
               "images": [
